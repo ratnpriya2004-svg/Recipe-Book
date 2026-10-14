@@ -101,7 +101,7 @@ function openCountryPage(countryCode) {
             <title>${country.name} - Recipes</title>
             <style>
                 *{margin:0;padding:0;box-sizing:border-box;}
-                body{background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(/assests/bb.jpg);background-size:cover;background-position:center;background-attachment:fixed;color:white;font-family:'Segoe UI',sans-serif;min-height:100vh;padding:2rem;}
+                body{background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(bb.jpg);background-size:cover;background-position:center;background-attachment:fixed;color:white;font-family:'Segoe UI',sans-serif;min-height:100vh;padding:2rem;}
                 .container{max-width:1200px;margin:0 auto;}
                 .back-btn{background:rgba(255,255,255,0.1);color:white;border:2px solid rgba(255,255,255,0.3);padding:1.2rem 2.5rem;border-radius:25px;cursor:pointer;font-size:1.1rem;margin-bottom:2rem;display:block;}
                 .back-btn:hover{background:rgba(255,255,255,0.2);transform:translateY(-3px);}
